@@ -5,6 +5,10 @@ draft: false
 description: "Nature Computational Science 的一篇文章让我重新审视自己使用AI编程工具的方式"
 tags: ["AI4Science", "科研方法", "反思"]
 categories: ["科研笔记"]
+cover:
+  image: "/images/post-ai-coding.jpg"
+  alt: "AI与科研编程"
+  relative: false
 ---
 
 

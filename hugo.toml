@@ -17,9 +17,28 @@ paginate = 10
   defaultTheme = "light"
   disableThemeToggle = false
 
-  [params.homeInfoParams]
-    Title = "Charlie's Research Blog"
-    Content = "AI4Science | Bioinformatics | 科研笔记与方法论反思"
+  [params.profileMode]
+    enabled = true
+    title = "Charlie's Research Blog"
+    subtitle = "AI4Science | Bioinformatics | 科研笔记与方法论反思"
+    imageUrl = "/images/hero.jpg"
+    imageWidth = 800
+    imageHeight = 300
+    imageTitle = "Cover"
+
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url = "/posts/"
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "/about/"
+
+  [params.cover]
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = false
+    linkFullImages = true
+    responsiveImages = true
 
   [[params.socialIcons]]
     name = "github"
