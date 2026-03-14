@@ -1,5 +1,5 @@
 ---
-title: "科研中的AI编程：从过度依赖到负责任使用"
+title: "Vibe Coding in Research: How Do We Review Intelligence Greater Than Ourselves?"
 date: 2026-03-14
 draft: false
 description: "Nature Computational Science 的一篇文章让我重新审视自己使用AI编程工具的方式"
