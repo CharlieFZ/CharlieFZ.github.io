@@ -1,6 +1,6 @@
 ---
 title: "Vibe Coding in Research: How Do We Review Intelligence Greater Than Ourselves?"
-date: 2026-03-14
+date: 2026-03-15
 draft: false
 description: "Nature Computational Science 的一篇文章让我重新审视自己使用AI编程工具的方式"
 tags: ["AI4Science", "科研方法", "反思"]
