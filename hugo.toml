@@ -1,0 +1,32 @@
+baseURL = 'https://CharlieFZ.github.io/'
+languageCode = 'zh-cn'
+title = "Charlie's Research Blog"
+theme = 'hugo-theme-stack'
+
+[params]
+  description = "AI4Science | Bioinformatics | 科研思考"
+  mainSections = ["posts"]
+
+[params.sidebar]
+  emoji = ""
+  subtitle = "科研笔记与思考"
+
+[params.footer]
+  since = 2026
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[markup.goldmark.renderer]
+  unsafe = true
