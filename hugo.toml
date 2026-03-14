@@ -1,32 +1,51 @@
 baseURL = 'https://CharlieFZ.github.io/'
 languageCode = 'zh-cn'
 title = "Charlie's Research Blog"
-theme = 'hugo-theme-stack'
+theme = 'PaperMod'
+paginate = 10
 
 [params]
   description = "AI4Science | Bioinformatics | 科研思考"
-  mainSections = ["posts"]
+  author = "Charlie FZ"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true
+  showToc = true
+  TocOpen = false
+  defaultTheme = "light"
+  disableThemeToggle = false
 
-[params.sidebar]
-  emoji = ""
-  subtitle = "科研笔记与思考"
+  [params.homeInfoParams]
+    Title = "Charlie's Research Blog"
+    Content = "AI4Science | Bioinformatics | 科研笔记与方法论反思"
 
-[params.footer]
-  since = 2026
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/CharlieFZ"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:fangkeyi985@gmail.com"
 
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
     name = "Posts"
     url = "/posts/"
-    weight = 2
+    weight = 1
   [[menu.main]]
     name = "About"
     url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
     weight = 3
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[markup.highlight]
+  style = "github"
+  lineNos = false
