@@ -5,7 +5,7 @@ theme = 'PaperMod'
 paginate = 10
 
 [params]
-  description = "AI4Science | Bioinformatics | 科研思考"
+  description = "AI4Science | Bioinformatics | Clinical Medicine | 科研思考"
   author = "Charlie FZ"
   ShowReadingTime = true
   ShowPostNavLinks = true
@@ -20,7 +20,7 @@ paginate = 10
   [params.profileMode]
     enabled = true
     title = "Charlie's Research Blog"
-    subtitle = "AI4Science | Bioinformatics | 科研笔记与方法论反思"
+    subtitle = "AI4Science | Bioinformatics | Clinical Medicine | 科研笔记与方法论反思"
     imageUrl = "/images/hero.jpg"
     imageWidth = 800
     imageHeight = 300
