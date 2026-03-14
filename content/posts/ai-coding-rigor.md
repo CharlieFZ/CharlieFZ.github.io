@@ -52,7 +52,7 @@ categories: ["科研笔记"]
 
 ## 一句话总结
 
-NLP研究者 Joris Baan 用了几个月 AI 编程工具后的结论说得好：
+NLP研究者 Joris Baan 用了几个月 AI 编程工具后的结论说：
 
 > "You need to be able to write and understand everything yourself to use it responsibly."
 
